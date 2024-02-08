@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#main-container {
+  background-image: linear-gradient(to bottom right, #d61414, #2020e9);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.sub-container {
+  background-color: rgb(158, 217, 230);
+  height: 50%;
+  width: 17%;
+  margin-top: 10%;
+  border-radius: 12px;
+  /* display: flex; */
+  /* justify-items: center; */
+  /* transition: width 2s, height 2s, transform 2s; */
+}
+
+.sub-container:hover{
+    transition-duration: 4s;
+    transform: translate3d(4px, 3px, 6px);
+    transform: rotateY(360deg);
+}
+
+.img {
+  border-radius: 50%;
+  border: black solid 3px;
+  max-height: 70px;
+  max-width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  /* overflow: auto; */
+  /* align-items: center; */
+}
+
+.name {
+  /* display: block; 
+    margin-left: auto;
+    margin-right: auto; */
+  text-align: center;
+  overflow: auto;
+  font-family: "Lobster", cursive;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  border-style: solid;
+  border-color: #1308a7;
+  border-width: 2px;
+  /* max-width: 150px;
+   max-height: 70px; */
+  background-color: rgba(0, 0, 255, 50%);
+  width: 65%;
+  height: 12%;
+  overflow: auto;
+  border-radius: 10%;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: blueviolet;
+  /* transition: 2s;  */
+  transform: translate3d(4px, 3px, 6px);
+}
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap; 
+
+
+}
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  
+
+ 
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+

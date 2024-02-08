@@ -1,0 +1,149 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Registration Form in Html</h1>
+    <form action="">
+      <table>
+        <tr>
+          <th>
+            <label for="name">Name:</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              name="name"
+              title="Enter your Full Name"
+              required
+              minlength="1"
+              maxlength="20"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="pnumber">Phone Number:</label>
+          </th>
+          <td>
+            <input
+              type="integer"
+              id="pnumber "
+              name="pnumber"
+              minlength="1"
+              maxlength="10"
+              placeholder="9867******"
+              title="Enter your Phone Number"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="email">Email Id:</label>
+          </th>
+          <td>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example1@*8"
+              title="Enter your Email id "
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="password">password:</label>
+          </th>
+          <td>
+            <input
+              type="password"
+              required
+              id="password"
+              name="password"
+              title="Set your password"
+              placeholder="password"
+              maxlength="20"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="gender">Gender:</label>
+          </th>
+          <td>
+            <label for="gender">Male</label>
+
+            <input type="radio" id="gender" name="gender" required />
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="dob">Date of Birth:</label></th>
+          <td>
+            <input type="date" name="dob" id="dob" required max="2023-08-06" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="hobbies">Hobbies:</label>
+          </th>
+
+          <td>
+            <label for="singing">singing</label>
+            <input type="checkbox" name="singing" id="singing" />
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" name="dancing" id="dancing" />
+            <label for="playing">Playing</label>
+            <input type="checkbox" name="playing" id="playing" />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="qualification">Education Qualification: </label></th>
+          <td>
+            <select name="qualification" id="qualification">
+              <option value="select option">select option</option>
+              <option value="high school">High school</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="graduation">Graduation</option>
+              <option value="masters">Masters</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="address">Address:</label></th>
+          <td>
+            <input
+              type="text field"
+              name="address"
+              id="address"
+              required
+              style="width: 80%; height: 100px"
+              title="Enter your address "
+              placeholder="Enter your address"
+            />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <h2>If you have any query about this  please mail us at <a href="mailto:someone@example.com">Query</a></h2>
+    <h2>Or you can take Help From this video</h2>
+    <iframe src="https://www.youtube.com/embed/2O8pkybH6po" frameborder="0" width="900"  height="400" ></iframe>
+   
+  </body>
+</html>
